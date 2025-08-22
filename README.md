@@ -55,8 +55,13 @@ Problem-Solving Practice (topic-wise)
 
 🚀 Projects Included
 ✅ Simple Projects
-Calculator
-Number Guessing Game
+Calculator,
+
+Number Guessing Game,
+
+Mahabharata Quiz,
+
+Rock Paper Scissor
 
 
 ⭐ Good Projects (Intermediate Level)
