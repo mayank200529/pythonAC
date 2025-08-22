@@ -1,4 +1,4 @@
-<!-- 
+
 🐍 Python Study Repository
 Welcome to the Python Study Repository!
 This repo is designed to help learners and developers strengthen their Python programming skills through:
@@ -24,4 +24,4 @@ REPOSITORY STRUCTURE
 ├── Simple_Projects/        # Starter projects to practice logic & implementation
 ├── Good_Projects/          # Intermediate/Advanced Python projects
 └── README.md               # Repository guide
- -->
+
