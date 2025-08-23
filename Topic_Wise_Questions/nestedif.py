@@ -18,7 +18,15 @@ elif n2 > n1:
                 print(f"{n3} is the largest number")
 elif n1 == n2 or n2 == n3 or n1 == n3 or n1 == n2 == n3:
     print("Please enter thee diffrent no.s")
-
+"""
+# There is a simple methord where we dont need to use nested if stmts
+if(n1>=n2 and n1>=n3):
+    print("The greatest no. is:",n1)
+elif(n2>=n3):
+    print("The greatest no. is:",n2)
+else:
+    print("The greatest no. is:",n3)
+"""
 
 # Q2 WAP to check if a person is eligile to donate blood
 # Conditions -: age>18, weight>50kg
