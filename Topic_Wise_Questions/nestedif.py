@@ -89,4 +89,18 @@ if sum == 180:
     else:
         print("No ,It is not a right angled Triangle")
 else:
-    print("It cannot form a Triangle")    
+    print("It cannot form a Triangle")
+
+#Q6 WAP to check if a no. is divisible by 3,5, or both
+print("\n\nQ6 WAP to check if a no. is divisible by 3,5, or both")
+print("Ans6 -")
+num = int(input("Enter a number- "))
+if num % 3 == 0:
+    if num % 5 == 0:
+        print(f"{num} is divisible by  both 3 and 5")     
+    else:
+        print(f"{num} is only divisible by 3")
+elif num % 5 == 0:
+    print(f"{num} is only divisible by 5")
+else:
+    print(f"{num} is niether divsibe by 3 nor by 5")    
