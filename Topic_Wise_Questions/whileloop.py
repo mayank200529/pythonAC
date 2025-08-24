@@ -38,7 +38,7 @@ n = 1
 print(f"Multiplication Table of {tab}:-")
 while n <= 10:
     mult = tab * n
-    print(mult , end="\n")
+    print(f"{tab} * {n} = {mult}" , end="\n")
     n = n + 1
 
 #5 Sum of digit of a number
