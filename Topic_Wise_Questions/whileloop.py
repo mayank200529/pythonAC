@@ -1,4 +1,4 @@
-"""
+
 #Print the following PATTERNS
 
 #1 - 1 2 3 4 5 6 7 8 9 10
@@ -12,7 +12,7 @@ print("\n")
 #2 - Sum of Natural no.s 
 a = 1 
 s = 0
-while a <= N:
+while a <= 5:
     print(a , end = " + ") 
     s = s + a
     a = a + 1
@@ -58,10 +58,19 @@ while b>0:
     b = b // 10
     count = count + 1
 print(count)
-"""
+
 #7 Reverse of a number
 number = int(input("Enter any number - "))
 while number>0:
     digit = number % 10
     number = number // 10
     print(digit)
+
+#print factorial of a number
+fact = int(input("Enter no. for factorial"))
+f = 1
+while( fact >= 1):
+    f = f * fact 
+    fact = fact - 1
+
+print(f)
