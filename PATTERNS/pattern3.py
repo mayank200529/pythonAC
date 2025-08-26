@@ -1,4 +1,4 @@
-"""
+
 #print reverse counting in decreasing order upto 0
 x = int(input("Number = "))
 while (x >= 0):
@@ -15,12 +15,12 @@ while n <= x1:
     n = n + 1
 
 print("\n ")
-"""
-#print factors of a number
-a = int(input("enter no. to get factors-"))
-n = 1
-while a>0:
-    if a // n == 0:
-        print(n , end=" ")
-    n = n + 1
+
+# #print factors of a number
+# a = int(input("enter no. to get factors-"))
+# n = 1
+# while a>0:
+#     if a // n == 0:
+#         print(n , end=" ")
+#     n = n + 1
 
